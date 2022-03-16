@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Конспект HTML & CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="conspect">
+        Конспект по
+        <a
+          class="conspect__link"
+          href="https://vladilen.ru/teach/control/stream/view/id/560546100"
+          target="_blank"
+          >курсу HTML & CSS</a
+        >
+      </div>
+      <div class="prolog">
+        <div class="prolog__container">
+          <div class="prolog__row">
+            <div class="prolog__columns">
+              <div class="prolog__columns_row">
+                <div class="prolog__columns_column">
+                  <div class="column__label">HTML</div>
+                  <ol class="column__list">
+                    <li>
+                      <a
+                        class="soder"
+                        href="https://vladilen.ru/pl/teach/control/lesson/view?id=237348395&editMode=0"
+                        target="_blank"
+                        >Как работает Web</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="soder"
+                        href="https://vladilen.ru/pl/teach/control/lesson/view?id=237348396&editMode=0"
+                        target="_blank"
+                        >Что такое HTML&CSS</a
+                      >
+                    </li>
+                    <li>Основы и синтаксис</li>
+                    <li>Текстовый редактор VSCode</li>
+                    <li>Структура HTML документа</li>
+                    <li>Секция Head</li>
+                    <li>Работа с текстом</li>
+                    <li>Картинки и ссылки</li>
+                    <li>Списки</li>
+                    <li>Таблицы</li>
+                    <li>Формы</li>
+                    <li>Линейные и блочные элементы</li>
+                    <li>Классы, ID</li>
+                    <li>HTML 5 Семантика</li>
+                    <li>Загружаем сайт на Github</li>
+                  </ol>
+                </div>
+                <div class="prolog__columns_column">
+                  <div class="column__label">CSS</div>
+                  <ol class="column__list">
+                    <li>Что такое CSS</li>
+                    <li>Синтаксис CSS</li>
+                    <li>Способы подключения CSS</li>
+                    <li>Селекторы</li>
+                    <li>Как работать с DevTools</li>
+                    <li>Работа с текстом</li>
+                    <li>Цвета</li>
+                    <li>Границы элементов</li>
+                    <li>Box Model</li>
+                    <li>Ссылки и псевдоселекторы</li>
+                    <li>Списки и таблицы</li>
+                    <li>Свойство display. Inline & Block & Inline-block</li>
+                    <li>Свойство Position</li>
+                    <li>Введение в адаптивную верстку с Media</li>
+                    <li>Deploy</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="prolog__anketa anketa">
+              <div class="anketa__subtitle">О себе</div>
+              <div class="anketa__item">
+                <div class="anketa__row">
+                  <div class="anketa__image">
+                    <img class="fotka" src="аватарка.jpg" alt="" />
+                  </div>
+                  <div class="anketa__body">
+                    <div class="anketa__title">Андрей Марецкий</div>
+                    <ul class="anketa__list">
+                      <li>23 года</li>
+                      <li>Изучаю HTML & CSS</li>
+                      <li>Снимаю онлайн-курсы</li>
+                      <li>Составляю майнд-карты</li>
+                    </ul>
+                    <div class="anketa__soc">
+                      <div class="soc">Соцсети</div>
+                      <a
+                        class="opensoc"
+                        href="https://www.instagram.com/flexy_mario/"
+                        target="_blank"
+                        >Instagram |</a
+                      >
+                      <a
+                        class="opensoc"
+                        href="https://t.me/upwake"
+                        target="_blank"
+                        >Telegram |</a
+                      >
+                      <a
+                        class="opensoc"
+                        href="https://vk.com/andrewmorets"
+                        target="_blank"
+                        >Vkontakte</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lesson-1">
+        <div class="container">
+          <div class="lesson-1__item">
+            <div class="lesson-1__title title">
+              <a
+                href="https://vladilen.ru/pl/teach/control/lesson/view?id=237348395&editMode=0"
+                target="_blank"
+                >1. Как работает Web</a
+              >
+            </div>
+            <div class="lesson-1__row">
+              <div class="lesson-1__body">
+                <h2>Описание схемы:</h2>
+                <ol class="lesson-1__text">
+                  <li>Клиент вводит запрос в браузере и нажимает Enter</li>
+                  <li>
+                    Браузер отправляет запрос пользователя в библиотеку DNS
+                  </li>
+                  <li>Браузер получает из DNS значение IP</li>
+                  <li>
+                    Браузер отправляет IP на сервер, на котором хранится
+                    страница
+                  </li>
+                  <li>
+                    Сервер отправляет браузеру файлы страницы (HTML, CSS и др.)
+                  </li>
+                  <li>
+                    Браузер рендерит (обрабатывает) полученные файлы и выводит
+                    их на экран пользователю
+                  </li>
+                </ol>
+              </div>
+              <div class="lesson-1__scheme">
+                <img
+                  class="scheme"
+                  src="1. Как работает Web 2.png"
+                  alt="Схема"
+                />
+                <div class="open">
+                  <a
+                    href="https://disk.yandex.ru/d/szrYjN_JEBp4WQ"
+                    target="_blank"
+                    >Открыть исходник</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lesson-2">
+        <div class="container">
+          <div class="lesson-2__title title">
+            <a
+              href="https://vladilen.ru/pl/teach/control/lesson/view?id=237348396&editMode=0"
+              target="_blank"
+              >2. Что такое HTML & CSS</a
+            >
+          </div>
+          <div class="lesson-2__table">
+            <div class="lesson-2__row">
+              <div class="lesson-2__tablica">
+                <table class="lesson-2__table table">
+                  <thead class="lesson-2__table">
+                    <tr class="lesson-2__zagolovok">
+                      <th>HTML</th>
+                      <th>CSS</th>
+                    </tr>
+                  </thead>
+                  <tbody class="lesson-2__table">
+                    <tr>
+                      <td>Создает видимые элементы</td>
+                      <td>Дает стили для HTML-элементов</td>
+                    </tr>
+                    <tr>
+                      <td>Не язык программирования</td>
+                      <td>Не язык программирования</td>
+                    </tr>
+                    <tr>
+                      <td>Язык разметки</td>
+                      <td>Язык стилей</td>
+                    </tr>
+                    <tr>
+                      <td>Очень простой</td>
+                      <td>Достаточно простой</td>
+                    </tr>
+                    <tr>
+                      <td>Скелет web-страницы</td>
+                      <td>Кожа, волосы, ногти, глаза</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="images">
+                <img class="img1" src="skeleton.png" alt="skeleton" />
+                <img class="img2" src="body.png" alt="body" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

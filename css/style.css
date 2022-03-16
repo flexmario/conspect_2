@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  background-color: #080f16;
+}
+
+.conspect {
+  color: #fff;
+  font-size: 40px;
+  padding: 50px 0 0 50px;
+  margin: 0 0 50px 0;
+  font-weight: 700;
+}
+
+.column__label {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.prolog__container {
+  margin: 0 0 0 40px;
+}
+
+.fotka {
+  max-width: 300px;
+  margin: 0 30px 0 0;
+  border-radius: 5px;
+}
+
+.anketa__title {
+  font-size: 24px;
+  color: #ec7239;
+}
+
+.anketa__list li {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.soc {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #ec7239;
+}
+
+.anketa__soc a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.anketa__soc a:hover {
+  text-decoration: underline;
+}
+
+.prolog__row {
+  display: flex;
+}
+
+.anketa__row {
+  display: flex;
+}
+
+.anketa__subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 15px 50px;
+}
+
+.anketa__body {
+  color: #fff;
+}
+
+.anketa__item {
+  margin: 0 0 0 50px;
+}
+
+ol {
+  color: #fff;
+}
+
+.column__list li {
+  color: #fff;
+}
+
+.soder {
+  color: #fff;
+  text-decoration: none;
+}
+
+.column__list li:hover {
+  text-decoration: underline;
+}
+
+.prolog__columns_row {
+  display: flex;
+}
+
+.prolog__columns_column {
+  margin: 0 40px 0 0;
+  max-width: 400px;
+}
+
+.column__list li {
+  margin: 0 0 8px;
+}
+
+.column__label {
+  padding: 0 0 0 22px;
+}
+
+.conspect__link:hover {
+  text-decoration: underline;
+}
+
+.conspect a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.lesson-1 {
+  margin: 50px;
+  padding: 50px 0;
+  background-color: #31485f;
+  border-radius: 5px;
+}
+
+.lesson-1__title a {
+  color: #ec7239;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.lesson-1__title:hover {
+  text-decoration: underline;
+}
+
+.title {
+  color: #ec7239;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scheme {
+  max-width: 500px;
+  transition: 0.5s;
+}
+
+.open {
+  color: #fff;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.open a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.open a:hover {
+  text-decoration: underline;
+}
+
+.lesson-1__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-1__body {
+  color: #fff;
+}
+
+.lesson-1__text {
+  width: 600px;
+  padding: 0 50px 0 20px;
+}
+
+.lesson-1__text li {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.lesson-2__row {
+  display: flex;
+}
+
+.lesson-2__title a {
+  color: #ec7239;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.lesson-2__table {
+  margin: 20px 0;
+}
+
+.lesson-2 {
+  background-color: #31485f;
+  margin: 50px;
+  padding: 50px 0;
+  background-color: #31485f;
+  border-radius: 5px;
+}
+
+.lesson-2__title:hover {
+  text-decoration: underline;
+}
+
+.lesson-1__title:visited {
+  text-decoration: none;
+}
+
+.table thead,
+tbody {
+  color: #fff;
+}
+
+.lesson-2__zagolovok {
+  font-size: 24px;
+}
+
+.lesson-2__table {
+  font-size: 18px;
+}
+
+td {
+  margin: 0 20px 0 0;
+}
+
+.images {
+  margin: 0 0 0 100px;
+}
+
+.img1 {
+  max-width: 200px;
+  margin: 0 50px 0;
+}
+
+.img2 {
+  max-width: 180px;
+}
